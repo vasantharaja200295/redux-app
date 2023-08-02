@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import Logout from './logout';
 
 function Profile() {
 
@@ -13,6 +14,7 @@ function Profile() {
         <p>Email: {user.email}</p>
 
         <h3>{user.string}</h3>
+        <Logout/>
     </div>
   )
 }
