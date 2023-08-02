@@ -11,6 +11,8 @@ function Profile() {
         <p>Name: {user.name}</p>
         <p>Age: {user.age}</p>
         <p>Email: {user.email}</p>
+
+        <h3>{user.string}</h3>
     </div>
   )
 }
